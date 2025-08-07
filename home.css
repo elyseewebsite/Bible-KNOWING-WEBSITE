@@ -114,12 +114,11 @@ ul li a:hover{
  
 }
 .maincontainer .mainbible{
-   margin-left: 100px;
     margin-top: 100px;
     background-color: aqua;
     width: 400px;
     border-radius: 10px;
-    margin-left: 120px;
+    margin-left: 50px;
 }
 .bible h1{
     font-weight: 700;
@@ -136,5 +135,47 @@ footer{
 .data a:hover{
     color: blue;
 }
-
+@media screen and (max-width:768px) {
+  ul li a{
+    font-size: 25px;
+    margin-left: 240px;
+  }
+  ul{
+    display: inline-block;
+  }
+  .bible .maincontainer .mainbible{
+    width: 500px;
+    height: 200px;
+  }
+  .bible .maincontainer .mainbible .image{
+    width: 250px;
+    margin-top: 10px;
+  }
+   .box .vd .vdo .videos{
+    width: 160px;
+    margin-top: -45px;
+    border-radius: 20px;
+   }
+   .box .vd .vdo {
+    height: 200px;
+    width: 170px;
+    align-items: center;
+    display: inline-block;
+    margin-left: -0px;
+    justify-content: space-between;
+    width: 30%;
+   }
+   .img .hand{
+    width: 100px;
+    margin-top: 70px;
+    height: 130px;
+   }
+   .data .social{
+    width: 100px;
+    height: 100px;
+   }
+  .gmail{
+    text-align: center;
+  }
+}
 
