@@ -135,7 +135,7 @@ footer{
 .data a:hover{
     color: blue;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:696px) {
   ul li a{
     font-size: 25px;
     margin-left: 240px;
